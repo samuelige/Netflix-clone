@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './Landing-page/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to my Netflix clone!</h1>
+      <LandingPage />
     </div>
   );
 }

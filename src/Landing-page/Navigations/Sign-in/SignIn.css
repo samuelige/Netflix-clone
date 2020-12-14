@@ -1,0 +1,15 @@
+.signIn-button-container {
+  float: right;
+  width: 80px;
+  margin-top: -3%;
+}
+
+.sign-button {
+  width: 100%;
+  outline: none;
+  color: #fff;
+  background-color: #e50914;
+  border: 0px;
+  border-radius: 7px;
+  height: 40px;
+}
