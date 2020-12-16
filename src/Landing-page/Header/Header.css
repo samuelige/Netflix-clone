@@ -1,8 +1,9 @@
 .header {
-  padding: 2% 2% 0px 5%;
+  padding: 1.7% 2% 0px 3.3%;
 }
 .header-logo {
-  width: 130px;
+  position: absolute;
+  width: 10%;
 }
 
 .header-logo > .netflix-logo {

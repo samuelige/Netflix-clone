@@ -1,7 +1,8 @@
 .signIn-button-container {
   float: right;
-  width: 80px;
-  margin-top: -3%;
+  width: 90px;
+  position: absolute;
+  margin-left: 88%;
 }
 
 .sign-button {
