@@ -1,0 +1,31 @@
+.email-container {
+  display: flex;
+}
+
+.get-started-container {
+  width: 137%;
+  height: 100%;
+  background-color: #e50914;
+  border: 0;
+  outline: none;
+  color: #fff;
+  padding: 14px 0px 0px 0px;
+  border-radius: 3px;
+  margin-left: -85%;
+}
+
+.get-started-container:hover {
+  opacity: 90%;
+}
+
+.get-started-container > .get-started {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+.get-started-container > .MuiSvgIcon-root {
+  font-size: 40px;
+  float: right;
+  margin-top: -9px;
+}
