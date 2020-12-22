@@ -1,7 +1,7 @@
 import React from 'react'
 import Email from './Email component/Email'
 import Header from './Header/Header'
-import './LandingPage.css'
+import './LandingPage.scss'
 
 function LandingPage() {
     return (
@@ -12,7 +12,7 @@ function LandingPage() {
                     <h1 className='unlimited'>Unlimited movies, TV</h1>
                     <span className='shows'>shows, and more.</span>
                     <span className='watch'>Watch anywhere. Cancel anytime.</span>
-                    <p className='readyToWatch'>Ready to watch? Enter your email to create or restart your membership.</p>
+                    <span className='readyToWatch'>Ready to watch? Enter your email to create or restart your membership.</span>
                 </div>
                 <div className="head-email">
                     <Email />
