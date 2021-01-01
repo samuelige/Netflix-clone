@@ -4,6 +4,8 @@ import Email from './Email component/Email'
 import Header from './Header/Header'
 import './LandingPage.scss'
 import tv from './images/tv.png'
+import mobile from './images/mobile-0819.jpg'
+import boxShot from './images/boxshot.png'
 
 function LandingPage() {
     const videoStyle = {
@@ -39,6 +41,22 @@ function LandingPage() {
                     </div>  
                 </div>
             </div>
+                <div className="download-container">
+                    <div className="image-container">
+                        <img src={mobile} className='mobile' alt="mobile"/>
+                        <div className="download-card">
+                            <img src={boxShot} className="box-shot" alt='boxShot'/>
+                            <div className="download-text">
+                                <span className='stranger-things'>Stranger Things</span>
+                                <span className="downloading">Downloading...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="download-advert">
+                        <h1>Download your shows to watch offline.</h1>
+                        <span className="favorites">Save your favorites easily and always have something to watch.</span>
+                    </div>
+                </div>
         </div>
     )
 }
