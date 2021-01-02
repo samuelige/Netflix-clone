@@ -6,6 +6,8 @@ import './LandingPage.scss'
 import tv from './images/tv.png'
 import mobile from './images/mobile-0819.jpg'
 import boxShot from './images/boxshot.png'
+import devicePile from './images/device-pile.png'
+
 
 function LandingPage() {
     const videoStyle = {
@@ -41,22 +43,37 @@ function LandingPage() {
                     </div>  
                 </div>
             </div>
-                <div className="download-container">
-                    <div className="image-container">
-                        <img src={mobile} className='mobile' alt="mobile"/>
-                        <div className="download-card">
-                            <img src={boxShot} className="box-shot" alt='boxShot'/>
-                            <div className="download-text">
-                                <span className='stranger-things'>Stranger Things</span>
-                                <span className="downloading">Downloading...</span>
-                            </div>
+            <div className="download-container">
+                <div className="image-container">
+                    <img src={mobile} className='mobile' alt="mobile"/>
+                    <div className="download-card">
+                        <img src={boxShot} className="box-shot" alt='boxShot'/>
+                        <div className="download-text">
+                            <span className='stranger-things'>Stranger Things</span>
+                            <span className="downloading">Downloading...</span>
                         </div>
                     </div>
-                    <div className="download-advert">
-                        <h1>Download your shows to watch offline.</h1>
-                        <span className="favorites">Save your favorites easily and always have something to watch.</span>
-                    </div>
                 </div>
+                <div className="download-advert">
+                    <h1>Download your shows to watch offline.</h1>
+                    <span className="favorites">Save your favorites easily and always have something to watch.</span>
+                </div>
+            </div>
+            <div className="thirdSecond">
+                <div className="watchEverywhere">
+                    <h1>Watch everywhere.</h1>
+                    <span className="stream">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</span>
+                </div>
+
+                <div className="second-story-animation">
+                    <div className="secondAnim-card">
+                        <img src={devicePile} className='device-Pile' alt=" device Pile"/>
+                    </div>
+                    <div className="secondAnim-video-container">
+                        <ReactPlayer url="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" playing={true} loop={true} muted={true} style={videoStyle} width="26.5%" height='250px'/>
+                    </div>  
+                </div>
+            </div>
         </div>
     )
 }
