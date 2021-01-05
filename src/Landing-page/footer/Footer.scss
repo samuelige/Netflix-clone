@@ -1,0 +1,34 @@
+.footer-links-container {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+}
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  width: 100%;
+}
+
+.link {
+  color: #757575;
+  text-decoration: none;
+  margin-bottom: 10%;
+}
+
+.first-footer-standalone {
+  margin-bottom: 4%;
+}
+
+.second-footer-standalone {
+  color: #757575;
+  font-size: 12px;
+}
+
+.footer-links-container {
+  margin-bottom: 3%;
+}

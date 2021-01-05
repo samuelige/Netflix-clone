@@ -8,6 +8,7 @@ import mobile from './images/mobile-0819.jpg'
 import boxShot from './images/boxshot.png'
 import devicePile from './images/device-pile.png'
 import QuestionDropdown from './custom-add-component/CustomAdd';
+import Footer from './footer/Footer';
 
 
 
@@ -87,6 +88,9 @@ function LandingPage() {
                 <div className="bottom-email">
                     <Email />
                 </div>
+            </div>
+            <div className="footer">
+                <Footer/>
             </div>
         </div>
     )
