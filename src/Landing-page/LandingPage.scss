@@ -106,7 +106,8 @@
 
 .story-text > h1,
 .download-advert > h1,
-.watchEverywhere > h1 {
+.watchEverywhere > h1,
+.fourthSection > .frequently {
   font-size: 3.125rem;
   font-weight: bold;
 }
@@ -248,6 +249,36 @@
 
 .device-Pile {
   width: 90%;
+}
+
+.fourthSection {
+  position: absolute;
+  width: 100%;
+  height: 135%;
+  margin-top: 160%;
+  padding: 6% 20% 2% 20%;
+  background: #000;
+  color: #ffffff;
+}
+
+.frequently {
+  text-align: center;
+}
+
+.fourthSection > .sub-section {
+  margin-top: 6%;
+  margin-bottom: 8%;
+}
+
+.secondReadyToWatch {
+  font-size: 19.2px;
+  width: 100%;
+  margin-left: 12%;
+}
+
+.bottom-email {
+  margin-left: 8%;
+  margin-top: 3%;
 }
 
 /* @media only screen and (max-width: 949px) and (min-width: 550px) {
