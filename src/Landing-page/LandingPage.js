@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import ReactPlayer from 'react-player'
 import Email from './Email component/Email'
 import Header from './Header/Header'
@@ -7,6 +7,8 @@ import tv from './images/tv.png'
 import mobile from './images/mobile-0819.jpg'
 import boxShot from './images/boxshot.png'
 import devicePile from './images/device-pile.png'
+import QuestionDropdown from './custom-add-component/CustomAdd';
+
 
 
 function LandingPage() {
@@ -15,6 +17,8 @@ function LandingPage() {
         marginLeft: '5.5%',
         
     }
+
+    
     return (
         <div className="mainContainer">
             <div className='header-container'>
@@ -72,6 +76,16 @@ function LandingPage() {
                     <div className="secondAnim-video-container">
                         <ReactPlayer url="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" playing={true} loop={true} muted={true} style={videoStyle} width="26.5%" height='250px'/>
                     </div>  
+                </div>
+            </div>
+            <div className="fourthSection">
+                <h1 className="frequently">Frequently Asked Questions</h1>
+                <div className="sub-section">
+                    <QuestionDropdown /> 
+                </div>
+                <span className='secondReadyToWatch'>Ready to watch? Enter your email to create or restart your membership.</span>
+                <div className="bottom-email">
+                    <Email />
                 </div>
             </div>
         </div>

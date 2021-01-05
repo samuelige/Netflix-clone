@@ -1,0 +1,43 @@
+// .what-is {
+//     display: flex;
+// }
+
+.what-is > .openAndCloseIcons {
+  float: right;
+  margin-top: -4%;
+  margin-right: 3%;
+}
+
+.openAndCloseIcons > .MuiSvgIcon-root {
+  font-size: 40px;
+}
+
+.questions {
+  background: #303030;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+.questions > .what-is {
+  border-bottom: solid 1px black;
+  height: 75px;
+  width: 100%;
+  padding-left: 4%;
+}
+
+.what-is > h3 {
+  align-items: center;
+  font-size: 1.6em;
+  padding-top: 3.3%;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 4% 4% 4%;
+}
+.answers > .firstParagraph,
+.secondParagraph {
+  font-size: 1.6em;
+  margin-bottom: 4%;
+}
